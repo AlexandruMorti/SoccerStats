@@ -70,7 +70,7 @@ namespace SoccerStats
                     }
 
                     double possessionPercent;
-                    if (double.TryParse(values[7], out possessionPercent))
+                    if (double.TryParse(values[8], out possessionPercent))
                     {
                         GameResult.PossessionPercent = possessionPercent;
                     }
